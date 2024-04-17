@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center><h1>Bouncy balls</h1></center>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="ball ball-1"></div>
+    <div class="ball ball-3"></div>
+    <div class="ball ball-4"></div>
+    <div class="ball ball-5"></div>
+    <div class="ball ball-7"></div>
+    <div class="ball ball-9"></div>
+</div>
+
+
+<style>
+
+  
+  .container {
+    width: 100vw;
+    height: 90vh;
+    background-color:rgb(229, 236, 221);
+    display: flex;
+    align-items: end;
+  }
+  .ball {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin:  0px 40px;
+  }
+  
+  .ball-1 {
+    background-color: aqua;
+
+    animation: ballBounce 1.1s cubic-bezier(0.1, 0.3, 0.6, 1) 0s infinite
+      alternate-reverse;
+  }
+  
+  .ball-3 {
+    background-color:  rgb(120,24,74);
+
+    animation: ballBounce 1.2s cubic-bezier(0.1, 0.3, 0.6, 1) 0s infinite
+      alternate-reverse;
+  }
+  .ball-4 {
+    background-color: rgb(86,130,3);
+    animation: ballBounce 1.25s cubic-bezier(0.1, 0.3, 0.6, 1) 0s infinite
+      alternate-reverse;
+  }
+  .ball-5 { 
+    background-color:rgb(191,0,255);
+    animation: ballBounce 1.3s cubic-bezier(0.1, 0.3, 0.6, 1) 0s infinite
+      alternate-reverse;
+  }
+  
+  .ball-7 {
+    background-color: rgb(255,69,0);
+    animation: ballBounce 1.4s cubic-bezier(0.1, 0.3, 0.6, 1) 0s infinite
+      alternate-reverse;
+  }
+  
+  .ball-9 {
+    background-color: rgb(18,97,128);
+    animation: ballBounce 1.5s cubic-bezier(0.1, 0.3, 0.6, 1) 0s infinite
+      alternate-reverse;
+  }
+  
+  
+  @keyframes ballBounce {
+    from {
+      
+    }
+    to {
+      transform: translateY(-500px);
+  
+    }
+  }
+</style>
+</body>
+</html> 
