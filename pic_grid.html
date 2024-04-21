@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <center><h1> Gallery Studio</h1></center>
+
+</head>
+<style>
+   .grid-container{
+    display: grid;
+    grid-template-columns:  50px 200px 60px 150px 60px;
+    grid-template-rows: 60px 200px 80px 50px 70px;
+    background-color: rgb(255,69,0);
+    padding: 50px;
+    gap: 7px;
+   }
+
+.grid-container >div{
+    text-align: center;
+    background-color: rgb(245, 239, 239);
+}
+
+.footer, a {
+    background: rgb(255,69,0);
+}
+
+
+a{
+    color: blanchedalmond;
+}
+
+.barcntr{
+    background-color: rgb(255,69,0);
+}
+.bar{
+    width: 89%;
+    background: #e4dada;
+    margin-right: 80%;
+    
+}
+
+.two{
+    width: 79%;
+    background: #e4dada;
+    margin-right: 80%;
+    
+}
+
+.three{
+    width: 85%;
+    background: #e4dada;
+    margin-right: 80%;
+    
+}
+
+.box1{
+    background-color: #e4dada;
+    width: 50px;
+    height: 50px;
+}
+
+.box2{
+    background-color: #e4dada;
+    width: 50px;
+    height: 50px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 80px;
+  padding: 0px;
+  height: 500px;
+  width: 360px;
+  font-size: 20px;
+}
+
+.box1 > div{
+    background-color: black;
+    padding: 32px;
+    
+}
+
+.box2 > div{
+    background-color: black;
+    padding: 32px;
+    font color: white;
+    
+}
+
+.flex-container2> div {
+    display: flex;
+    width: 60%;
+}
+
+.f1{
+
+    width: 30%;
+    text-align: right;
+    justify-content: space-evenly;
+}
+
+.f1{
+
+width: 30%;
+text-align: center;
+}
+.f1{
+
+width: 30%;
+text-align: left;
+}
+
+.last >div{
+background-color: black;
+ height: 35px;
+text-align: center;
+padding: 30px;
+
+  
+}
+
+button:hover {
+  background-color: grey;
+}
+ 
+img {
+  opacity: 0.7;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+</style>
+
+
+<body>
+    <div class="grid-container">
+    <div style="grid-row: 1/3; grid-column: 1/4;"><img src="gm.png" width="100%" height="100%"></div>
+     <div style="grid-column:1/6; grid-row: 5/15;"><img src="quote.png" width="100%" height="100%"></div>
+     <div style="grid-row: 5/2; grid-column: 4/6;"><img src="egg.png" width="100%" height="100%"></div>
+    <div style="grid-row: 3/6; grid-column: 6/6;"><img src="Screenshot 2024-04-20 192350.png" width="100%" height="100%"></div>
+    <div style="grid-column: 2/4; grid-row: 3/5;"><img src="yoga.png" width="100%" height="100%"></div>
+    <div style="grid-column: 6/6; grid-row: 1/3;"><img src="meet.png" width="100%" height="100%"></div>
+    <div style="grid-row: 2/12"><img src="Screenshot 2024-04-20 193320.png" width="100%" height="100%"></div>
+    <div style="grid-row: 6/18; grid-column: 6/7"><img src="tea.png" width="100%" height="100%"></div>
+ </div>
+ 
+
+<div class=" footer">
+    
+   
+<center>
+    <br>
+    <hr>
+<h1>About us</h1>
+<br>
+<br>
+
+<div class="pic">
+ <img src="Screenshot 2024-04-10 195629.png" width="60%">
+
+ <h4>Summary</h4>
+ <p style="width: 60%;">Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+   dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ </p>
+    <p style="width: 60%;">Mail: gchandu@gmail.com</p>
+    <p>Tel: +91 9123456720</p>
+    <hr style="width: 60%;">
+ <br>
+   <h3 style="text-align: left; width: 60%;">Techical Skills</h3>
+<p style="text-align: left; width: 60%;">Photography</p>
+
+    <div class="barcntr" style="width: 60%;">
+<div class="bar" >90%</div>
+    </div>
+    <br>
+    <p style="text-align: left; width: 60%;">Web Design</p>
+
+    <div class="barcntr" style="width: 60%;">
+        <div class="two" >85%</div>
+            </div>
+            <br>
+            <p style="text-align: left; width: 60%;">Photo Shop</p>
+
+            <div class="barcntr" style="width: 60%;">
+                <div class="three" >75%</div>
+                    </div>
+                    <br>
+
+            <button style="right;"> Submit</button>      
+              <br>
+     <hr style="width: 60%;">
+     <h3 style="text-align: left; width: 60%;">How much I charge</h3>
+
+<div class="flex-container">
+
+<div class="box1" >
+    <div class="block1" style="color: white;">Basic</div>
+    <p>Web Design</p>
+    <hr>
+    <p>Photography</p>
+    <hr>
+    <p>5GB  Storage</p>
+    <hr>
+    <p>Mail Support</p>
+    <hr>
+    <p>$10</p>
+    <p>per month</p>
+        <button>Sign up</button>
+    
+</div> 
+
+
+<div class="box2">
+    <div class="block2" style="color: white;">Pro</div>
+<p>Web Design</p>
+<hr>
+<p>Photography</p>
+<hr>
+<p>50GB Storage</p>
+<hr>
+<p>Endless Support</p>
+<hr>
+<p>$25</p>
+<p>per month</p>
+
+    <button>Sign up</button>
+</div>
+</div>
+
+<h1>Contact Me</h1>
+<p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+    <br>
+    <h3 style="text-align: left; width: 60%;">Name:</h3>
+    <input type="text" name="firstname" size="15" style="width: 60%;">   
+<br>
+<h3 style="text-align: left; width: 60%;">E-mail:</h3>
+    <input type="text" name="firstname" size="15" style="width: 60%;">   
+<br>
+<h3 style="text-align: left; width: 60%;">Message:</h3>
+    <input type="text" name="firstname" size="15" style="width: 60%;">   
+<br><br>
+<button>Submit</button>
+<br><br>
+
+
+
+<footer class="flex-container2">
+    <div class="foot">
+<div class="f1"  >
+    <h3>INFO</h3><br>
+<p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+</div>
+
+
+<div class="f2">
+    <h3>BLOG POSTS</h3>
+        <img src="./meet.png" class="w3-left w3-margin-right" style="width:50px">
+        <span class="f2">Lorem Sed mattis nunc</span><br>
+       <hr>
+        <img src="./meet.png" class="w3-left w3-margin-right" style="width:30px">
+        <span class="w3-large">Ipsum</span><br>
+        <span>Praes tinci sed</span>
+      </li> 
+    </ul>
+  </div>
+
+<div class="f3" >
+<h3>POPULAR TAGS</h3>
+<button> Travel</button>
+<button> Ikea</button>
+<button> NewYork</button>
+<button> Norway</button>
+<button> DIY</button>
+<button> Ideas</button>
+<button> Baby</button>
+<button> Family</button>
+<button> News</button>
+<button> Clothing</button>
+<button> Shopping</button>
+<button>Sports </button>
+<button> Games</button>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+</footer>
+
+<div class="last">
+<div class="end" style="color: white;">Powered by w3.css</div>
+
+</div>
+
+
+
+
+
+   </body>
+
+
+</body>
+</html>
